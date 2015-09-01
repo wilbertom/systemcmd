@@ -27,6 +27,3 @@ static ErlNifFunc nif_funcs[] = {
 };
 
 ERL_NIF_INIT(systemcmd, nif_funcs, NULL, NULL, NULL, NULL);
-
-// ERL_NIF_TERM (*)(ErlNifEnv *, int, const ERL_NIF_TERM *)
-// ERL_NIF_TERM (*)(ErlNifEnv *, int, ERL_NIF_TERM *)
